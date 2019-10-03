@@ -8,12 +8,27 @@ html{
   background-position: right top;
   margin-right: 200px;
  }
- input[type=text], [type=number], select {
-   width: 100%;
-   padding: 12px 20px;
-   margin: 8px 0;
-   display: block;
-   border: 1px solid #ccc;
-   border-radius: 4px;
-   box-sizing: border-box;
- }
+#container{
+    left: 30%;
+    margin-left: auto;
+    position: absolute;
+    margin-top: auto;
+    width: 500px;
+}
+input[type=text], [type=number], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+label{
+  font-size:18px;
+  font-family: cursive;
+}
+@media (max-width: 600px;)
+{
+  font-size:1em;
+}
