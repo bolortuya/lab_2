@@ -2,5 +2,18 @@ h1{
   text-align: center;
 }
 html{
-  background-color: #98AFC7;
-}
+  background-image: url("/users/bolortuyatumurbaatar/desktop/lab_2/img_tree.png");
+  background-color: #F0FFFF;
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+ }
+ input[type=text], [type=number], select {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
