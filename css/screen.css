@@ -7,7 +7,7 @@
     text-align: center;
     font-size: 1.5em;
     position: relative;
-    left: 30%;
+    left: 10%;
   }
   #container{
       left: 30%;
@@ -17,25 +17,26 @@
       width: 500px;
   }
   input[type=text], [type=number], select {
-    width: 80%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    width: 50%;
+    padding: 8px 20px;
+    margin: 6px 0;
     display: block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
   }
   label{
-    font-size:18px;
+    font-size:14px;
     font-family: cursive;
   }
 }
+
   @media only screen and (min-width: 480px)
   {
     h1{
       text-align: center;
       position: relative;
-      left: 5%;
+      left: 4%;
     }
     body{
       background-image: url("/users/bolortuyatumurbaatar/desktop/lab_2/img_tree.png");
