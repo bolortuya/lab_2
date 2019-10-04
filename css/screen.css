@@ -1,6 +1,5 @@
-
 @media screen and (max-width: 480px) {
-  body {
+  html {
     background-color: #F0FFFF;
   }
   h1{
@@ -30,8 +29,7 @@
     font-family: cursive;
   }
 }
-
-  @media only screen and (min-width: 480px)
+@media only screen and (min-width: 500px)
   {
     h1{
       text-align: center;
