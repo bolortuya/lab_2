@@ -29,7 +29,7 @@
     font-family: cursive;
   }
 }
-@media only screen and (min-width: 500px)
+@media only screen and (min-width: 600px)
   {
     h1{
       text-align: center;
